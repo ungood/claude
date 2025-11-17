@@ -26,8 +26,6 @@
         config,
         ...
       }: {
-        pre-commit.settings.hooks.comrak.enable = true;
-
         devShells.default = config.pre-commit.devShell;
       };
 
