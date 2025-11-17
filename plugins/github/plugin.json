@@ -1,5 +1,5 @@
 {
-  "name": "github-issues",
+  "name": "github",
   "description": "Create GitHub issues quickly from Claude Code",
   "version": "1.0.0",
   "author": "Jason Walker"

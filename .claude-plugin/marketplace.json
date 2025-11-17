@@ -1,14 +1,14 @@
 {
-  "name": "ungoods-claude-plugins",
+  "name": "ungood",
   "owner": {
     "name": "Jason Walker",
     "email": "jason@onetrue.name"
   },
   "plugins": [
     {
-      "name": "github-issues",
+      "name": "github",
       "description": "Commands for issue management",
-      "source": "./plugins/github-issues"
+      "source": "./plugins/github"
     }
   ]
 }

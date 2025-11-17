@@ -12,7 +12,6 @@ This repository is a Claude Code plugin marketplace containing a personal collec
   - `marketplace.json` - Plugin marketplace manifest
 - `plugins/` - Individual plugin directories
 
-## License
+## Tenets
 
-This project is licensed under the MIT License. See LICENSE.md for details.
 - Create the simplest plugin structure as you can.  Use minimal metadata and do not nest files in a .claude directory - this is not necessary.
