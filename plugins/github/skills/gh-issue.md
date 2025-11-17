@@ -45,6 +45,15 @@ You have access to the `gh issue` command for managing GitHub issues from the co
 4. Use markdown formatting in issue bodies for better readability
 5. When creating issues, provide clear, actionable descriptions
 
+## Issue Templates
+
+When creating issues, check for issue templates in the repository:
+- Templates are typically in `.github/ISSUE_TEMPLATE/` directory
+- Use `gh issue create --template <template-name>` to use a template
+- List available templates by checking the `.github/ISSUE_TEMPLATE/` directory
+- If templates exist, prefer using them to maintain consistency
+- Templates may define fields that need to be filled in
+
 ## Issue Body Formatting
 
 Issue bodies support GitHub Flavored Markdown:
