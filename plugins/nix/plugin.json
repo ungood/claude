@@ -1,0 +1,5 @@
+{
+  "name": "nix",
+  "description": "Best practices and conventions for writing Nix code",
+  "author": "Jason Walker"
+}

@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.  This is a long line to test comrak.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository. This is a long line to test comrak.
 
 ## Project Overview
 
@@ -14,4 +14,5 @@ This repository is a Claude Code plugin marketplace containing a personal collec
 
 ## Tenets
 
-- Create the simplest plugin structure as you can.  Use minimal metadata and do not nest files in a .claude directory - this is not necessary.
+- Create the simplest plugin structure as you can. Use minimal metadata and do not nest files in a .claude directory - this is not necessary.
+- Do not add versions to plugin or marketplace metadata.
