@@ -62,3 +62,43 @@ Issue bodies support GitHub Flavored Markdown:
 - Use code blocks with ``` for code examples
 - Use `> quotes` for important notes
 - Use checkboxes `- [ ]` for task lists
+
+## Command Implementation Guidelines
+
+When implementing commands that create GitHub issues, follow these patterns:
+
+### Creating Issues with Multiline Bodies
+
+Always use a HEREDOC to handle multiline content properly:
+
+```bash
+gh issue create --title "Issue title" --body "$(cat <<'EOF'
+## Summary
+Brief description here
+
+## Details
+More details here
+
+## Steps to Reproduce
+1. First step
+2. Second step
+EOF
+)"
+```
+
+### Showing Results
+
+After creating an issue:
+- Display the created issue URL to the user
+- Confirm the issue was created successfully
+- The `gh issue create` command outputs the URL automatically
+
+### Error Handling
+
+If issue creation fails:
+- Explain the error to the user in plain language
+- Common issues include:
+  - Not being in a git repository
+  - Not having GitHub CLI authenticated (`gh auth login`)
+  - Network connectivity issues
+  - Missing required permissions
