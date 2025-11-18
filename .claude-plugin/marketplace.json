@@ -7,8 +7,13 @@
   "plugins": [
     {
       "name": "github",
-      "description": "Commands for issue management",
+      "description": "Commands for using Github.",
       "source": "./plugins/github"
+    },
+    {
+      "name": "nix",
+      "description": "Best practices and conventions for writing Nix code.",
+      "source": "./plugins/nix"
     }
   ]
 }
