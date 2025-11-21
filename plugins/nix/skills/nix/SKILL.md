@@ -1,3 +1,8 @@
+---
+name: nix
+description: Provides Nix development best practices using flakes, flake-parts, and modern Nix tooling
+---
+
 # Nix Development Best Practices
 
 ## Best Practices

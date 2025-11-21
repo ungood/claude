@@ -1,3 +1,8 @@
+---
+name: gh-issue
+description: Manages GitHub issues using the gh CLI with commands for creating, listing, viewing, and updating issues
+---
+
 # GitHub Issues Management Skill
 
 You have access to the `gh issue` command for managing GitHub issues from the command line.

@@ -12,6 +12,10 @@ This repository is a Claude Code plugin marketplace containing a personal collec
   - `marketplace.json` - Plugin marketplace manifest
 - `plugins/` - Individual plugin directories
 
+## Documentation
+
+1. @docs/skills-spec.md
+
 ## Tenets
 
 - Create the simplest plugin structure as you can. Use minimal metadata and do not nest files in a .claude directory - this is not necessary.
