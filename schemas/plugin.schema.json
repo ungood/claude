@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://claude.ai/schemas/plugin.json",
+  "title": "Claude Plugin",
+  "description": "Schema for Claude Code plugin metadata",
+  "type": "object",
+  "required": ["name"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Unique identifier (kebab-case, no spaces)",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "version": {
+      "type": "string",
+      "description": "Semantic versioning format (e.g., 2.1.0)",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief explanation of plugin's purpose"
+    },
+    "author": {
+      "type": ["string", "object"],
+      "description": "Author information with name, email, and URL",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Author's name"
+        },
+        "email": {
+          "type": "string",
+          "description": "Author's email address",
+          "format": "email"
+        },
+        "url": {
+          "type": "string",
+          "description": "Author's URL",
+          "format": "uri"
+        }
+      }
+    },
+    "homepage": {
+      "type": "string",
+      "description": "Documentation URL",
+      "format": "uri"
+    },
+    "repository": {
+      "type": "string",
+      "description": "Source code repository URL",
+      "format": "uri"
+    },
+    "license": {
+      "type": "string",
+      "description": "License identifier (MIT, Apache-2.0, etc.)"
+    },
+    "keywords": {
+      "type": "array",
+      "description": "Discovery tags for categorization",
+      "items": {
+        "type": "string"
+      }
+    },
+    "commands": {
+      "type": ["string", "array"],
+      "description": "Additional command files/directories (relative paths starting with ./)",
+      "items": {
+        "type": "string",
+        "pattern": "^\\.\\/.*$"
+      }
+    },
+    "agents": {
+      "type": ["string", "array"],
+      "description": "Additional agent files (relative paths starting with ./)",
+      "items": {
+        "type": "string",
+        "pattern": "^\\.\\/.*$"
+      }
+    },
+    "hooks": {
+      "type": ["string", "object"],
+      "description": "Hook configuration path or inline config (paths must start with ./)"
+    },
+    "mcpServers": {
+      "type": ["string", "object"],
+      "description": "MCP configuration path or inline config (paths must start with ./)"
+    }
+  },
+  "additionalProperties": false
+}

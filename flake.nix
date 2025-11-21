@@ -33,6 +33,7 @@
       perSystem =
         {
           config,
+          pkgs,
           ...
         }:
         {
@@ -43,6 +44,23 @@
 
           pre-commit.settings.hooks.treefmt.enable = true;
           devShells.default = config.pre-commit.devShell;
+
+          checks = {
+            validate-schemas =
+              pkgs.runCommand "validate-plugin-schemas" { buildInputs = [ pkgs.check-jsonschema ]; }
+                ''
+                  # Validate marketplace.json
+                  check-jsonschema --schemafile ${./schemas/marketplace.schema.json} ${./.claude-plugin/marketplace.json}
+
+                  # Validate all plugin.json files
+                  for plugin in ${./plugins}/*/plugin.json; do
+                    echo "Validating $plugin"
+                    check-jsonschema --schemafile ${./schemas/plugin.schema.json} "$plugin"
+                  done
+
+                  touch $out
+                '';
+          };
         };
     };
 }
