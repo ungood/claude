@@ -1,10 +1,10 @@
 ---
-description: Report an issue to the Claude plugin marketplace repository
+description: Report an issue to the ungood/claude plugin marketplace
 allowed-tools: Bash(gh:*)
 argument-hint: '[title]'
 ---
 
-Report an issue to the Claude plugin marketplace repository.
+Report an issue to the ungood/claude plugin marketplace repository.
 
 Follow these steps:
 
