@@ -21,5 +21,6 @@ This repository is a Claude Code plugin marketplace containing a personal collec
 
 ## Tenets
 
-- Create the simplest plugin structure as you can. Use minimal metadata and do not nest files in a .claude directory - this is not necessary.
-- Do not add versions to plugin or marketplace metadata.
+- Create the simplest plugin structure as you can.
+- Do not add author field to plugin manifests when it is redundant with marketplace.json
+- Do not add email address.

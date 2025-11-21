@@ -1,0 +1,5 @@
+{
+  "name": "claude",
+  "description": "Instructs Claude in how to modify itself.",
+  "version": "0.1.0"
+}

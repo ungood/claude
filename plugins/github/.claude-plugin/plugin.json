@@ -1,6 +1,5 @@
 {
   "name": "github",
-  "description": "Create GitHub issues quickly from Claude Code",
-  "version": "1.0.0",
-  "author": "Jason Walker"
+  "description": "Claude plugin for repositories on GitHub",
+  "version": "0.1.0"
 }

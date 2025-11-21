@@ -1,8 +1,12 @@
 {
   "name": "ungood",
   "owner": {
-    "name": "Jason Walker",
-    "email": "jason@onetrue.name"
+    "name": "Jason Walker"
   },
-  "plugins": ["./plugins/github", "./plugins/nix"]
+  "metadata": {
+    "description": "Personal Claude plugin marketplace",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins/"
+  },
+  "plugins": ["claude", "github", "nix"]
 }
