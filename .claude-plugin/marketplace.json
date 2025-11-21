@@ -4,16 +4,5 @@
     "name": "Jason Walker",
     "email": "jason@onetrue.name"
   },
-  "plugins": [
-    {
-      "name": "github",
-      "description": "Commands for using Github.",
-      "source": "./plugins/github"
-    },
-    {
-      "name": "nix",
-      "description": "Best practices and conventions for writing Nix code.",
-      "source": "./plugins/nix"
-    }
-  ]
+  "plugins": ["./plugins/github", "./plugins/nix"]
 }

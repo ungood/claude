@@ -61,7 +61,7 @@
                   check-jsonschema --schemafile ${./schemas/marketplace.schema.json} ${./.claude-plugin/marketplace.json}
 
                   # Validate all plugin.json files
-                  for plugin in ${./plugins}/*/plugin.json; do
+                  for plugin in ${./plugins}/*/.claude-plugin/plugin.json; do
                     echo "Validating $plugin"
                     check-jsonschema --schemafile ${./schemas/plugin.schema.json} "$plugin"
                   done
