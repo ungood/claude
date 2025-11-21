@@ -39,7 +39,16 @@
         {
           treefmt.programs = {
             nixfmt.enable = true;
-            prettier.enable = true;
+            prettier = {
+              enable = true;
+              excludes = [ "*.md" ];
+            };
+            mdformat = {
+              enable = true;
+              package = pkgs.mdformat.withPlugins [
+                pkgs.python3Packages.mdformat-frontmatter
+              ];
+            };
           };
 
           pre-commit.settings.hooks.treefmt.enable = true;

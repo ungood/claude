@@ -15,6 +15,9 @@ This repository is a Claude Code plugin marketplace containing a personal collec
 ## Documentation
 
 1. @docs/skills-spec.md
+1. [Plugins Reference](https://code.claude.com/docs/en/plugins-reference)
+1. [Marketplace](https://code.claude.com/docs/en/marketplace)
+1. [Settings](https://code.claude.com/docs/en/settings)
 
 ## Tenets
 

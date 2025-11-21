@@ -1,7 +1,6 @@
----
-name: gh-issue
-description: Manages GitHub issues using the gh CLI with commands for creating, listing, viewing, and updating issues
----
+______________________________________________________________________
+
+## name: gh-issue description: Manages GitHub issues using the gh CLI with commands for creating, listing, viewing, and updating issues
 
 # GitHub Issues Management Skill
 
@@ -51,10 +50,10 @@ You have access to the `gh issue` command for managing GitHub issues from the co
 ## Best Practices
 
 1. Always use `--title` and `--body` for programmatic issue creation
-2. Add relevant labels to help with organization
-3. Reference related issues or PRs in the body using #number syntax
-4. Use markdown formatting in issue bodies for better readability
-5. When creating issues, provide clear, actionable descriptions
+1. Add relevant labels to help with organization
+1. Reference related issues or PRs in the body using #number syntax
+1. Use markdown formatting in issue bodies for better readability
+1. When creating issues, provide clear, actionable descriptions
 
 ## Issue Templates
 
@@ -72,7 +71,7 @@ Issue bodies support GitHub Flavored Markdown:
 
 - Use `## Headings` for structure
 - Use bullet lists for steps or requirements
-- Use code blocks with ``` for code examples
+- Use code blocks with \`\`\` for code examples
 - Use `> quotes` for important notes
 - Use checkboxes `- [ ]` for task lists
 
