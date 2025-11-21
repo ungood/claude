@@ -1,3 +1,7 @@
+---
+description: Install a plugin from the marketplace into project settings
+---
+
 Install a plugin from the Claude plugin marketplace into the current project's settings.
 
 Follow these steps:

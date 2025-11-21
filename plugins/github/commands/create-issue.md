@@ -1,3 +1,8 @@
+---
+description: Create a GitHub issue in the current repository using templates
+allowed-tools: Bash(gh:*)
+---
+
 Create a new GitHub issue in the current repository using issue templates.
 
 Follow these steps:

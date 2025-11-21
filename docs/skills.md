@@ -45,10 +45,6 @@ There are 3 optional properties:
 
 The Markdown body has no restrictions on it.
 
-# Additional Information
+## Reference
 
-For a minimal example, see the `template-skill` example.
-
-# Version History
-
-- 1.0 (2025-10-16) Public Launch
+For complete documentation, see: https://code.claude.com/docs/en/skills

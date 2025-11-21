@@ -1,6 +1,10 @@
-Create a GitHub issue quickly using conversation context as the issue body.
+---
+description: Create a GitHub issue quickly using conversation context
+allowed-tools: Bash(gh:*)
+argument-hint: '[title]'
+---
 
-Arguments: `[title]` (optional) - The issue title
+Create a GitHub issue quickly using conversation context as the issue body.
 
 Follow these steps:
 

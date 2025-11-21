@@ -1,3 +1,9 @@
+---
+description: Report an issue to the Claude plugin marketplace repository
+allowed-tools: Bash(gh:*)
+argument-hint: '[title]'
+---
+
 Report an issue to the Claude plugin marketplace repository.
 
 Follow these steps:
