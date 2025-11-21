@@ -49,11 +49,23 @@
     },
     "plugins": {
       "type": "array",
-      "description": "Paths to plugin directories containing plugin.json metadata",
+      "description": "List of plugins in the marketplace",
       "items": {
-        "type": "string",
-        "description": "Relative path to local plugin directory",
-        "pattern": "^\\.\\/.*$"
+        "type": "object",
+        "required": ["name", "source"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Plugin identifier (kebab-case, no spaces)",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "source": {
+            "type": "string",
+            "description": "Relative path to plugin directory or URL",
+            "pattern": "^(\\.\\/.*|https?:\\/\\/.*)$"
+          }
+        },
+        "additionalProperties": false
       }
     }
   },

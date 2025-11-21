@@ -8,5 +8,18 @@
     "version": "1.0.0",
     "pluginRoot": "./plugins/"
   },
-  "plugins": ["claude", "github", "nix"]
+  "plugins": [
+    {
+      "name": "claude",
+      "source": "./plugins/claude"
+    },
+    {
+      "name": "github",
+      "source": "./plugins/github"
+    },
+    {
+      "name": "nix",
+      "source": "./plugins/nix"
+    }
+  ]
 }
