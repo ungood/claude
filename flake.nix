@@ -45,9 +45,8 @@
             };
             mdformat = {
               enable = true;
-              package = pkgs.mdformat.withPlugins [
-                pkgs.python3Packages.mdformat-frontmatter
-              ];
+              plugins = pkgs': [ pkgs'.mdformat-frontmatter ];
+              settings.number = true;
             };
           };
 

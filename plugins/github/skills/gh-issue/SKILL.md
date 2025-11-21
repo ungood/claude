@@ -50,10 +50,10 @@ You have access to the `gh issue` command for managing GitHub issues from the co
 ## Best Practices
 
 1. Always use `--title` and `--body` for programmatic issue creation
-1. Add relevant labels to help with organization
-1. Reference related issues or PRs in the body using #number syntax
-1. Use markdown formatting in issue bodies for better readability
-1. When creating issues, provide clear, actionable descriptions
+2. Add relevant labels to help with organization
+3. Reference related issues or PRs in the body using #number syntax
+4. Use markdown formatting in issue bodies for better readability
+5. When creating issues, provide clear, actionable descriptions
 
 ## Issue Templates
 
