@@ -1,5 +1,17 @@
 {
   "name": "claude",
   "description": "Instructs Claude in how to modify itself.",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/force-skill-evaluation.sh"
+          }
+        ]
+      }
+    ]
+  }
 }
