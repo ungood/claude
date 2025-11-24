@@ -94,5 +94,4 @@ More essential guidance...
 - **Start minimal**: Begin with just SKILL.md
 - **Iterate**: Add references/ as complexity grows
 - **Link clearly**: Use relative links to reference files
-- **Test often**: Validate with `pnpx claude-skills-cli validate`
 - **Stay focused**: One skill = one clear purpose

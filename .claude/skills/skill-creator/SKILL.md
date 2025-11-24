@@ -38,14 +38,8 @@ my-skill/
 
 ## References
 
-- [quick-start.md](references/quick-start.md) - Creating your first
-  skill
-- [writing-guide.md](references/writing-guide.md) - Writing effective
-  skills
-- [development-process.md](references/development-process.md) -
-  Step-by-step workflow
-- [skill-examples.md](references/skill-examples.md) - Patterns and
-  examples
-- [cli-reference.md](references/cli-reference.md) - CLI tool usage
-- [anthropic-resources.md](references/anthropic-resources.md) -
-  Official best practices
+- [quick-start.md](references/quick-start.md) - Creating your first skill
+- [writing-guide.md](references/writing-guide.md) - Writing effective skills
+- [development-process.md](references/development-process.md) - Step-by-step workflow
+- [skill-examples.md](references/skill-examples.md) - Patterns and examples
+- [anthropic-resources.md](references/anthropic-resources.md) - Official best practices
