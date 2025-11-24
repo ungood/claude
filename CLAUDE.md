@@ -14,11 +14,10 @@ This repository is a Claude Code plugin marketplace containing a personal collec
 
 ## Documentation
 
-1. [Skills](docs/skills.md)
-2. [Commands](docs/commands.md)
-3. [Plugins Reference](https://code.claude.com/docs/en/plugins-reference)
-4. [Marketplace](https://code.claude.com/docs/en/marketplace)
-5. [Settings](https://code.claude.com/docs/en/settings)
+1. [Commands](docs/commands.md)
+2. [Plugins Reference](https://code.claude.com/docs/en/plugins-reference)
+3. [Marketplace](https://code.claude.com/docs/en/marketplace)
+4. [Settings](https://code.claude.com/docs/en/settings)
 
 ## Tenets
 
