@@ -3,9 +3,6 @@
 #
 # This hook requires Claude to explicitly evaluate each available skill
 # before proceeding with implementation.
-#
-# Installation: Copy to .claude/hooks/UserPromptSubmit
-
 cat <<'EOF'
 INSTRUCTION: MANDATORY SKILL ACTIVATION SEQUENCE
 
