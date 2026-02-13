@@ -18,6 +18,10 @@
       "source": "./plugins/github"
     },
     {
+      "name": "memex",
+      "source": "./plugins/memex"
+    },
+    {
       "name": "nix",
       "source": "./plugins/nix"
     }
